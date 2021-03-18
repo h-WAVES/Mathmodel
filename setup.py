@@ -28,7 +28,7 @@ def find_version(*file_paths):
 setup(
     name='modeling',
     packages=find_packages(),
-    version='0.1.0',
+    version='0.0.1',
     description='modeling REST API access modules',
     author='Waves',
     author_email='hhtnan@163.com',
