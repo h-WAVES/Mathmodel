@@ -1,6 +1,4 @@
-modeling
----------------
-
+# modeling
 
 .. image:: https://img.shields.io/pypi/v/modeling.svg
    :target: https://pypi.python.org/pypi/modeling
@@ -25,13 +23,13 @@ modeling is a set of modules that we use to manage aspects of our Skytap
 infrastructure.
 
 
+\[[中文](https://github.com/CyberZHG/keras-bert/blob/master/README.zh-CN.md)|[English](https://github.com/CyberZHG/keras-bert/blob/master/README.md)\]
 
 
-Installation
-------------
+## Install
 
-Install this through pip::
-
-    pip install modeling
+```bash
+pip install modeling
+```
 
 
