@@ -33,7 +33,7 @@ setup(
     author_email='hhtnan@163.com',
     maintainer='Waves',
     maintainer_email='hhtnan@163.com',
-    license='MIT',
+    license='MIT Licence',
     install_requires=get_requirements('requirements.txt'),
     url='https://github.com/h-WAVES/Mathmodel',
     keywords=['mathmodel', 'Model', 'alg', 'mathematical', 'mcm'],
@@ -56,3 +56,4 @@ setup(
 
     ]
 )
+
