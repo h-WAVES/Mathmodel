@@ -293,6 +293,6 @@ def bunchtoDF(Bunchdata):
     :param Bunchdata:
     :return: ->DataFram
     """
-    df = pd.DataFrame(Bunchdata, columns=Bunchdata.feature_names)
+    df = pd.DataFrame(Bunchdata.data, columns=Bunchdata.feature_names)
     df['target'] = pd.Series(Bunchdata.target)
     return df
