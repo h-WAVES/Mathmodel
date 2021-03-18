@@ -9,3 +9,6 @@ print(a)
 os.getcwd()
 import codecs
 
+from setuptools import setup, find_packages
+import setuptools
+print(setuptools.__version__)

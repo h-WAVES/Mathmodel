@@ -39,7 +39,6 @@ setup(
     keywords=['mathmodel', 'Model', 'alg', 'mathematical', 'mcm'],
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',
-    platforms=["all"],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.5",
@@ -52,7 +51,7 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: System :: Systems Administration",
-        "Topic :: Internet"
+        "Topic :: Internet",
 
     ]
 )
