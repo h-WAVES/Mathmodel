@@ -1,5 +1,4 @@
 """Setup information for the mathmodel API package."""
-from setuptools import find_packages,setup
 import os
 import re
 import codecs
