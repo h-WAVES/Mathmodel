@@ -1,0 +1,19 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.8"
+# command to install dependencies
+install:
+  - pip install .
+  - pip install nose coverage
+  - pip install coveralls
+  # command to run tests
+script:
+  - nosetests --with-coverage --cover-package skytap
+after_success:
+  - coveralls

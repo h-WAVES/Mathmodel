@@ -1,7 +1,7 @@
 mathmodel
 =======================
 
-[![Version](https://img.shields.io/pypi/v/modeling)](https://pypi.org/project/modeling/)
+[![Version](https://img.shields.io/pypi/v/mathmodel)](https://pypi.org/project/mathmodel/)
 ![License](https://img.shields.io/github/license/h-WAVES/Mathmodel)
 ![downloads](https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total)
 ![](https://img.shields.io/badge/keras-tensorflow-blue.svg)
