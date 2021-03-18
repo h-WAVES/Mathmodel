@@ -1,4 +1,4 @@
-"""Setup information for the modeling API package."""
+"""Setup information for the mathmodel API package."""
 from setuptools import find_packages,setup
 import os
 import re
@@ -26,20 +26,18 @@ def find_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 setup(
-    name='modeling',
+    name='mathmodel',
     packages=find_packages(),
-    version='0.0.1',
-    description='modeling REST API access modules',
+    version=find_version('mathmodel', '__init__.py'),
+    description='mathmodel REST API access modules',
     author='Waves',
     author_email='hhtnan@163.com',
     maintainer='Waves',
     maintainer_email='hhtnan@163.com',
     license='MIT',
-    install_requires=['requests', 'six'],
-    scripts=['bin/skytap'],
+    install_requires=get_requirements('requirements.txt'),
     url='https://github.com/h-WAVES/Mathmodel',
-    #download_url='https://github.com/mapledyne/skytap/tarball/v1.4.0',
-    keywords=['modeling', 'Model', 'alg', 'mathematical', 'mcm'],
+    keywords=['mathmodel', 'Model', 'alg', 'mathematical', 'mcm'],
     long_description=read_file('README.md'),
     long_description_content_type='text/markdown',
     platforms=["all"],
