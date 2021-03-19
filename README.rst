@@ -21,12 +21,12 @@
 
 
 
-describe
+Describe
 ------------
 **[**
-`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README.md>`_
+`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README.rst>`_
 |
-`English <https://github.com/h-WAVES/Mathmodel/blob/main/README.md>`_
+`English <https://github.com/h-WAVES/Mathmodel/blob/main/README-zh-CN.md>`_
 **]**
 
 

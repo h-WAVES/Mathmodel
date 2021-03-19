@@ -77,7 +77,7 @@ def get_cost(b_dict={0:0},s_dict=None):
         commission = b_cost(amount)
         b_comm += commission
         print("buy:{}*{}={},  {}_cost={}".format(b_price,b_stcok_cnt,amount,b_cnt,commission))
-    print("buy stock total cost={}".format(b_comm))
+    #print("buy stock total cost={}".format(b_comm))
     if s_dict != None:
         s_amount=0
         s_comm=0
@@ -90,6 +90,11 @@ def get_cost(b_dict={0:0},s_dict=None):
             s_comm += s_commission
             print("sale:{}*{}={},  {}_cost={}".format(s_price, s_stock_cnt, s_amount, s_cnt, s_commission))
         total_cost=s_comm + b_comm
-        print("卖出手续费（sale stock cost）={},总计手续费（total）={}".format(s_comm,total_cost))
+        #print("卖出手续费（sale stock cost）={},总计手续费（total）={}".format(s_comm,total_cost))
 
-        print("total profit={}".format(s_amount-b_amount-total_cost))
+        #print("total profit={}".format(s_amount-b_amount-total_cost))
+
+    outstr="卖出手续费（sale stock cost）={},总计手续费（total）={} \n{}".format\
+        (s_comm,total_cost,s_amount-b_amount-total_cost)
+
+    return outstr
