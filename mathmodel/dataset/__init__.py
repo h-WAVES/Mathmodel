@@ -1,5 +1,4 @@
 from .base import *
-from .base import load_boston
 
 __all__ = ['load_iris',
            'load_boston',
