@@ -24,9 +24,9 @@
 Describe
 ------------
 **[**
-`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README.rst>`_
+`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README-zh-CN.md>`_
 |
-`English <https://github.com/h-WAVES/Mathmodel/blob/main/README-zh-CN.md>`_
+`English <https://github.com/h-WAVES/Mathmodel/blob/main/README.rst>`_
 **]**
 
 
