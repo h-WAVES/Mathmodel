@@ -4,8 +4,10 @@
 .. image:: https://img.shields.io/pypi/v/mathmodel
    :target: https://pypi.org/project/mathmodel/
 
-.. image:: https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total
-   :target: https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total
+.. image:: https://pepy.tech/badge/mathmodel
+   :target: https://pepy.tech/project/mathmodel
+   :alt: https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total
+
 
 .. image:: https://img.shields.io/github/license/h-WAVES/Mathmodel
    :target: https://img.shields.io/github/license/h-WAVES/Mathmodel
@@ -24,9 +26,9 @@
 Describe
 ------------
 **[**
-`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README.rst>`_
+`中文  <https://github.com/h-WAVES/Mathmodel/blob/main/README-zh-CN.md>`_
 |
-`English <https://github.com/h-WAVES/Mathmodel/blob/main/README-zh-CN.md>`_
+`English <https://github.com/h-WAVES/Mathmodel/blob/main/README.rst>`_
 **]**
 
 
