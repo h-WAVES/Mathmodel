@@ -5,7 +5,7 @@
    :target: https://pypi.org/project/mathmodel/
 
 .. image:: https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total
-   :target: https://img.shields.io/github/downloads/h-WAVES/Mathmodel/total
+   :target: https://pepy.tech/project/mothmodel
 
 .. image:: https://img.shields.io/github/license/h-WAVES/Mathmodel
    :target: https://img.shields.io/github/license/h-WAVES/Mathmodel
