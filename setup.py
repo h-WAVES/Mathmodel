@@ -40,11 +40,7 @@ setup(
     long_description=read_file('README.rst'),
     # long_description_content_type='text/markdown',
     classifiers=[
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3",
         "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",
         "Intended Audience :: System Administrators",
@@ -54,6 +50,8 @@ setup(
         "Topic :: System :: Systems Administration",
         "Topic :: Internet",
 
-    ]
+    ],
+    python_requires='>=3.4',   # Python 的版本约束
+
 )
 

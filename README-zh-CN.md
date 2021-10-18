@@ -1,4 +1,4 @@
-# modeling
+# Mathmodel
 
 
 [![Version](https://img.shields.io/pypi/v/modeling)](https://pypi.org/project/modeling/)
@@ -13,7 +13,7 @@
 ## Install(安装使用)
 
 ```bash
-pip install modeling
+pip install mathmodel
 ```
 
 
