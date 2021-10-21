@@ -1,2 +1,2 @@
-numpy==1.18.3
-pipreqs==0.4.10
+numpy>=1.18.3
+pipreqs>=0.4.10
